@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabiola e Lucas 💖</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="slider-container">
+        <div class="slider" id="slider">
+            <div class="slide active"><img src="1.png" alt="Fabiola e Lucas em um momento feliz"></div>
+            <div class="slide"><img src="2.png" alt="Lembrança de uma viagem do casal"></div>
+            <div class="slide"><img src="3.png" alt="Momento especial entre Fabiola e Lucas"></div>
+            <div class="slide"><img src="5.jpeg" alt="Outro registro do casal"></div>
+            <div class="slide"><img src="6.jpeg" alt="Fabiola e Lucas juntos"></div>
+        </div>
+        <button class="btn prev">❮</button>
+        <button class="btn next">❯</button>
+    </div>
+
+    <div class="dots" id="dots"></div>
+
+    <h1>Fabiola e Lucas</h1>
+    <p>Você é meu lar, meu abraço favorito, minha melhor escolha. E eu só consigo agradecer por dividir a vida com alguém tão incrível, que me inspira a ser melhor todos os dias. 💕</p>
+    <div class="timer" id="timer">Carregando...</div>
+
+    <div class="music-controls">
+        <button id="music-btn">🎵 Tocar Música</button>
+        <button id="next-music-btn">⏭ Próxima</button>
+    </div>
+
+    <div class="reveal-container">
+        <button id="reveal-btn">
+    Nosso Maior Momento <span class="star-icon">✨</span>
+</button>
+    </div>
+
+    <div id="moment-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p class="modal-text">E de nós gerou o momento de nossas vidas...</p>
+            
+            <div class="mini-slider-container">
+                <div class="mini-slider">
+                    <div class="mini-slide active"><img src="laura.jpeg" alt="Nossa filha sorrindo na praia"></div>
+                    <div class="mini-slide"><img src="laura1.jpeg" alt="lorem"></div>
+                    <div class="mini-slide"><img src="laura2.jpeg" alt="lorem"></div>
+                    <div class="mini-slide"><img src="laura4.png" alt="lorem"></div>
+                </div>
+                <button class="mini-btn mini-prev">❮</button>
+                <button class="mini-btn mini-next">❯</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="bg-music"></audio>
+    <script src="script.js" defer></script>
+
+</body>
+</html>
